@@ -54,6 +54,7 @@ $awardsUsers = explode(',', $awardsUsersStr);
     .list{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .award{
         display: flex;
@@ -67,7 +68,7 @@ $awardsUsers = explode(',', $awardsUsersStr);
 
     }
     .categ{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .CB{
         filter: grayscale(100%);
